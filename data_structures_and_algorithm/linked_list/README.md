@@ -1,4 +1,4 @@
-# 📚 Linked Lists (with Python and C)
+# 📚 Linked Lists
 
 ---
 
@@ -21,13 +21,52 @@ Each **node** contains:
 
 ### 🔹 Types of Linked Lists
 
-1. **Singly Linked List** – [▶️  Singly Linked List](#singly-linked-list)  
-2. **Doubly Linked List** – [▶️  Doubly Linked List](#doubly-linked-list)  
+1. **Singly Linked List** – [▶️  Singly Linked List](README.md#-singly-linked-list)  
+2. **Doubly Linked List** – [▶️  Doubly Linked List](README.md#-doubly-linked-list)  
 3. **Circular Linked List** – Last node points to the head
 
 
 
 ## 🔸 Singly Linked List
+
+A **Singly Linked List (SLL)** is a linear data structure where **each node points only to the next node** in the sequence.
+
+---
+
+### 🔹 Structure of a Singly Linked List Node
+
+Each node has two parts:
+
+1. **Data** – the actual value stored  
+2. **Next** – a pointer to the **next** node in the list
+
+---
+
+### ➡️ Visual Representation
+
+```
+[10] -> [20] -> [30] -> NULL
+```
+
+- The list starts at the **head** (10)  
+- The last node points to `NULL` (end of the list)  
+- You can **only move forward**
+
+---
+
+### ✅ Advantages
+
+- Simple and efficient for **forward traversal**
+- Uses **less memory** (one pointer per node)
+- Easy to implement
+
+---
+
+### ❌ Disadvantages
+
+- Cannot traverse backward
+- Deleting a node requires tracking the **previous node**
+- Not efficient for **reverse operations**
 
 ### ✅ Node Structure
 
@@ -67,8 +106,65 @@ struct Node {
 
 ## 🔗 Doubly Linked List
 
-Each node contains pointers to both the next and previous nodes.
+A Doubly Linked List (DLL) is a type of linked list where each node contains three parts:
+1. **Data** – the actual value stored
+2. **Prev** – a pointer to the previous node
+3. **Next** – a pointer to the next node
 
+### 🔁 Visual Representation:
+```
+NULL <- [10] <-> [20] <-> [30] -> NULL
+```
+-10 is the head node; its prev is NULL
+-30 is the tail node; its next is NULL
+
+Each node connects to both its previous and next nodes
+
+---
+
+### ✅ Advantages:
+Can be traversed in both directions
+
+Deletion is easier (no need to track the previous node separately)
+
+Efficient for backward iteration
+
+---
+
+### ❌ Disadvantages:
+Uses more memory (extra pointer)
+
+Slightly more complex to implement than singly linked lists
+
+---
+
+### 🔹 Node Structure of Doubly Linked List
+
+#### 🐍 Python
+
+```python
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.prev = None
+        self.next = None
+```
+
+---
+
+#### 💻 C
+
+```c
+struct Node {
+    int data;
+    struct Node* prev;
+    struct Node* next;
+};
+```
+
+---
+
+### ✅ Operations
 ### 🔹 Insert at End (DLL)
 - [Python Code](doubly_linked_list/insert_end.py)
 - [C Code](doubly_linked_list/insert_end.c)
