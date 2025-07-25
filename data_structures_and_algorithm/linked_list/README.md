@@ -21,8 +21,8 @@ Each **node** contains:
 
 ### 🔹 Types of Linked Lists
 
-1. **Singly Linked List** – [Singly Linked List](#singly-linked-list)  
-2. **Doubly Linked List** – [Doubly Linked List](#Doubly-linked-list)  
+1. **Singly Linked List** – [▶️  Singly Linked List](#Singly-Linked-List)  
+2. **Doubly Linked List** – [▶️  Doubly Linked List](#Doubly-Linked-List)  
 3. **Circular Linked List** – Last node points to the head
 
 
@@ -52,8 +52,8 @@ struct Node {
 ### ✅ Operations
 
 #### 🔹 Insert at Beginning (SLL)
-- [Python Code](Linked_List\Singly_Linked_List\Insert_Beginning(Python).py)
-- [C Code](Linked_List\Singly_Linked_List\Insert_Beginning(C).c)
+- [Python Code](data_structures_and_algorithm/linked_list/singly_linked_list/Insert_Beginning(Python).py)
+- [C Code](College-Programs/data_structures_and_algorithm/linked_list/singly_linked_list/Insert_Beginning(C).c)
 
 #### 🔹 Insert at End (SLL)
 - [Python Code](Linked_List\Singly_Linked_List\insert_end.py)
