@@ -21,8 +21,8 @@ Each **node** contains:
 
 ### 🔹 Types of Linked Lists
 
-1. **Singly Linked List** – [▶️  Singly Linked List](#Singly-Linked-List)  
-2. **Doubly Linked List** – [▶️  Doubly Linked List](#Doubly-Linked-List)  
+1. **Singly Linked List** – [▶️  Singly Linked List](#singly-linked-list)  
+2. **Doubly Linked List** – [▶️  Doubly Linked List](#doubly-linked-list)  
 3. **Circular Linked List** – Last node points to the head
 
 
@@ -52,15 +52,15 @@ struct Node {
 ### ✅ Operations
 
 #### 🔹 Insert at Beginning (SLL)
-- [Python Code](data_structures_and_algorithm/linked_list/singly_linked_list/Insert_Beginning(Python).py)
-- [C Code](College-Programs/data_structures_and_algorithm/linked_list/singly_linked_list/Insert_Beginning(C).c)
+- [Python Code](singly_linked_list/Insert_Beginning(Python).py)
+- [C Code](singly_linked_list/Insert_Beginning(C).c)
 
 #### 🔹 Insert at End (SLL)
-- [Python Code](Linked_List\Singly_Linked_List\insert_end.py)
-- [C Code](singly_linked_list/c/insert_end.c)
+- [Python Code](singly_linked_list/insert_end.py)
+- [C Code](singly_linked_list/insert_end.c)
 
 #### 🔹 Delete by Value (SLL)
-- [Python Code](singly_linked_list/python/delete_by_value.py)
+- [Python Code](singly_linked_list/delete_by_value.py)
 - [C Code](singly_linked_list/c/delete_by_value.c)
 
 ---
@@ -70,16 +70,16 @@ struct Node {
 Each node contains pointers to both the next and previous nodes.
 
 ### 🔹 Insert at End (DLL)
-- [Python Code](Doubly_linked_list/python/insert_end.py)
-- [C Code](Doubly_linked_list/c/insert_end.c)
+- [Python Code](doubly_linked_list/insert_end.py)
+- [C Code](doubly_linked_list/insert_end.c)
 
 ### 🔹 Delete by Value (DLL)
-- [Python Code](Doubly_linked_list/python/delete_by_value.py)
-- [C Code](Doubly_linked_list/c/delete_by_value.c)
+- [Python Code](doubly_linked_list/delete_by_value.py)
+- [C Code](doubly_linked_list/delete_by_value.c)
 
 ### 🔹 Display Forward and Backward (DLL)
-- [Python Code](Doubly_linked_list/python/display.py)
-- [C Code](Doubly_linked_list/c/display.c)
+- [Python Code](doubly_linked_list/display.py)
+- [C Code](doubly_linked_list/display.c)
 
 ---
 
