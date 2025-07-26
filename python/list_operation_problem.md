@@ -63,4 +63,4 @@ print
 ---
 ## Solution:
 ### Python:
-[Solution😉](python/list_operation_problem.py)
+[Solution😉](list_operation_problem.py)
